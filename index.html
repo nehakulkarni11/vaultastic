@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vaultastic</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.png">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -23,10 +24,10 @@
 
     <h2 class="initial-heading">Enter your password</h2>
     <form>
-        <input id="password" placeholder="type here..." type="password">
+        <input id="password" placeholder="type here..." type="text">
     </form>
 
-    <div class="feedback-box">
+    <div class="feedback-box" id="feedback-box">
         <h3 id="strength">Strength</h3>
         <ul id="suggest">Suggestions</ul>
     </div>

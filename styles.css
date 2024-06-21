@@ -64,7 +64,6 @@ form {
 
 .feedback-box {
     width: 30%;
-    height: 9rem;
     background-color: #F0F0F0;
     padding: 50px;
     margin-left: 32%;
@@ -78,10 +77,30 @@ form {
 }
 
 .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     margin-top: 10%;
     text-align: center;
     background-color: #F0F0F0;
     padding: 20px;
     font-weight: bolder;
     font-size: 20px;
+}
+
+.weak {
+    color: #b91c1c;
+}
+
+.medium {
+    color: #ea580c;
+}
+
+.strong {
+    color: #eab308;
+}
+
+.very_strong {
+    color: #65a30d;
+
 }
