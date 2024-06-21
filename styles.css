@@ -89,18 +89,18 @@ form {
 }
 
 .weak {
-    color: red;
+    color: #b91c1c;
 }
 
 .medium {
-    color: orange;
+    color: #ea580c;
 }
 
 .strong {
-    color: yellow;
+    color: #eab308;
 }
 
 .very_strong {
-    color: green;
+    color: #65a30d;
 
 }
